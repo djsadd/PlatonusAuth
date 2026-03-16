@@ -8,3 +8,7 @@ services:
       PLATONUS_BASE_URL: https://platonus.tau-edu.kz
       PLAYWRIGHT_TIMEOUT_MS: 60000
       PLAYWRIGHT_HEADLESS: "true"
+      KEYCLOAK_BASE_URL: https://your-keycloak-host
+      KEYCLOAK_REALM: your-realm
+      KEYCLOAK_CLIENT_ID: your-client-id
+      KEYCLOAK_CLIENT_SECRET: your-client-secret
