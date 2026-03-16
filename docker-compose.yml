@@ -3,3 +3,7 @@ services:
     build: .
     ports:
       - "9000:9000"
+    environment:
+      ADMIN_USERNAME: admin
+      ADMIN_PASSWORD: admin
+      ADMIN_ROLE: admin
