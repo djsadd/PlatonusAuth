@@ -4,6 +4,7 @@ services:
     ports:
       - "9000:9000"
     environment:
-      ADMIN_USERNAME: admin
-      ADMIN_PASSWORD: admin
-      ADMIN_ROLE: admin
+      PLATONUS_LOGIN_URL: https://platonus.tau-edu.kz/mail?type=1
+      PLATONUS_BASE_URL: https://platonus.tau-edu.kz
+      PLAYWRIGHT_TIMEOUT_MS: 60000
+      PLAYWRIGHT_HEADLESS: "true"
